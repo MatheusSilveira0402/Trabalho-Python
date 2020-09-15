@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bem-vindo!"
+        android:textAlignment="center"
+        tools:ignore="RtlCompat"
+        android:textColor="#000077"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Cod.Municipio:"
+        android:textColor="#000000"
+        />
+    <EditText
+        android:id="@+id/editCodigomunicipio"
+        android:hint="Digite codigo do municipio!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mês e ano:"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/editAnomes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EX:000000"
+        />
+    <TextView
+        android:id="@+id/textResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Resultado"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        tools:ignore="RtlCompat"
+        />
+    <Button
+        android:onClick="solicitarDados"
+        android:text="solicitar dados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
